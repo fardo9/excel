@@ -1,8 +1,25 @@
-$pink: #eee;
-body {
-    background-color: $pink;
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import "~normalize.css";
+@import "./components/dashboard";
+@import "./components/header";
+@import "./components/toolbar";
+@import "./components/formula";
+@import "./components/table";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-html {
-    margin-top: 10%;
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.excel {
+    position: relative;
+    color: #888;
+    height: 100%;
+    max-width: 100%;
+    font-size: .8rem;
 }
